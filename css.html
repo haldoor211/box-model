@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Box Model</title>
+  <style>
+    .container {
+      width: 960px;
+      min-height: 500px;
+      border: 1px solid navy;
+      padding: 3px ;
+      margin: 5px auto;
+    }
+    .header {
+        width: 940px;
+      height: 110px;
+      border: 1px solid navy;
+      padding: 3px ;
+      margin: 5px auto;  
+    }
+    .topnav {
+        width: 940px;
+      height: 30px;
+      border: 1px solid navy;
+      padding: 3px ;
+      margin: 5px auto;
+    }
+    .content {
+        width: 940px;
+      min-height: 420px;
+      border: 1px solid navy;
+      padding: 3px ;
+      margin: 5px auto;  
+    }
+    .sectionone {
+      width: 295px;
+      height: 400px;
+      border: 1px solid navy;
+      padding: 3px ;
+      margin: 5px ;
+      float: left; 
+    }
+    .sectiontwo {
+      width: 295px;
+      height: 400px;
+      border: 1px solid navy;
+      padding: 3px ;
+      margin: 5px ;
+      float: left;
+    }
+    .sectionthree {
+      width: 295px;
+      height: 400px;
+      border: 1px solid navy;
+      padding: 3px ;
+      margin: 5px ;
+      float: left;
+    }
+    .footer {
+        width: 940px;
+      min-height: 50px;
+      border: 1px solid navy;
+      padding: 3px ;
+      margin: 5px auto;  
+    }
+    a:link {
+        color: blue;
+       
+        font-family: Algerian;
+        font-size: 25px;
+        font-weight: bolder;
+        padding: 20px;
+        margin: 4px;
+    }
+     table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 1.5px;
+     }
+      .footer, h3 {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 1.5px;
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <h1><U>HALDOOR COLLEGE </U> </h1>
+        <h1> <i>Welcome To The Abdirahman Mahamoud Haldoor's College</i> </h1>
+    </div>
+    <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">News</a>
+        <a href="#">Admission</a>
+        <a href="#">Department</a>
+        <a href="#">Contant</a>
+    </div>
+    <div class="content">
+        <div class="sectionone">
+            <h2>Student Lists;</h2>
+            <table>
+                <tr>
+                    <th>No.</th>
+                    <th>Name:</th>
+                    <th>Telephone:</th>
+                    <th>Time :</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Mustafe Yaasin</td>
+                    <td>0637464537</td>
+                    <td>5:00pm</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Maxamuud abdi</td>
+                    <td>0636736487</td>
+                    <td>5:00pm</td>
+                </tr>      <tr>
+                    <td>3</td>
+                    <td>Hodan isaaq</td>
+                    <td>0636473900</td>
+                    <td>5:00pm</td>
+                </tr>      <tr>
+                    <td>4</td>
+                    <td>Sharmaake yousuf</td>
+                    <td>0634251634</td>
+                    <td>5:00pm</td>
+                </tr>      <tr>
+                    <td>5</td>
+                    <td>Mustafe Yaasin</td>
+                    <td>0634526534</td>
+                    <td>5:00pm</td>
+                </tr>      <tr>
+                    <td>6</td>
+                    <td>Salmaan guuleed</td>
+                    <td>0636342517</td>
+                    <td>5:00pm</td>
+                </tr>      <tr>
+                    <td>7</td>
+                    <td>Asma Faarax</td>
+                    <td>0633645372</td>
+                    <td>5:00pm</td>
+                </tr>      <tr>
+                    <td>8</td>
+                    <td>Cali Yoonis</td>
+                    <td>0634909823</td>
+                    <td>5:00pm</td>
+                </tr>      <tr>
+                    <td>9</td>
+                    <td>Yousuf Gaaxnuug</td>
+                    <td>0633764534</td>
+                    <td>5:00pm</td>
+                </tr>      <tr>
+                    <td>10</td>
+                    <td>Hinda Maxamed</td>
+                    <td>0634720053</td>
+                    <td>5:00pm</td>
+                </tr>      <tr>
+                    <td>11</td>
+                    <td>Yaasmiin C/fataax</td>
+                    <td>0634889672</td>
+                    <td>5:00pm</td>
+                </tr>      <tr>
+                    <td>12</td>
+                    <td>Xamse Cumar</td>
+                    <td>0637324543</td>
+                    <td>5:00pm</td>
+                </tr>      <tr>
+                    <td>13</td>
+                    <td>Yaxye Cali</td>
+                    <td>0636352857</td>
+                    <td>5:00pm</td>
+                </tr>      <tr>
+                    <td>14</td>
+                    <td>Mumtaaz Ibrahin</td>
+                    <td>0634637583</td>
+                    <td>5:00pm</td>
+                </tr>
+            </table>
+        </div>
+        <div class="sectiontwo">
+            <h3>College About </h3>
+            What are ‘study skills’?
+            .
+
+Study skills are skills all students use to study effectively, whatever their subject area. All students have them; it’s really about recognising them, developing them, refining them and using them more effectively.
+
+Like?
+
+Time management, revision and assignment planning, using electronic resources, reading skills, writing skills and critical thinking. All the stuff we need to feel confident with in order to navigate Higher Education.
+
+I’ve been doing pretty well until now – why would I need to develop my study skills?
+
+Better organised and can help you meet new challenges as you progress through your degree.
+
+Stress is the number one enemy of effective study and feeling in control lessens stress. 
+        </div>
+        <div class="sectionthree">
+           <h4>What are Study Skills?</h4> 
+
+Study skills are the skills you need to enable you to study and learn efficiently – they are an important set of transferable life skills.
+
+Our pages provide generic study skills advice – appropriate to learners across all disciplines and in different life circumstances: full and part-time students, those returning to education later in life, those engaged in professional development and anybody who wants to learn how to learn effectively.
+<img src="images/haldoor.png"alt="haldoorimage"width="150" height="100" />
+        </div>
+    </div>
+    <div class="footer">
+        <img src="images/dddd.jpg"alt="ddddd image"width="180" height="130" />
+        <h3>Wixii Faah-Faahin Ah Nagala Soo Xidhiidh __________ <i>TELL:0634873711 AMA 0637135199</i></h3>
+    </div>
+  </div>
+</body>
+</html>
